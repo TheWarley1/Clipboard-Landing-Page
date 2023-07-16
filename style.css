@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body{
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.devices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+}  
+
+.perks{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    display: flex;
+    height: 100px;
+}
+
+
+.button-ios{
+    background-color: hsl(171, 66%, 44%);
+    height: 50px;
+    border-radius: 25px;
+}
+
+.button-mac{
+    background-color: hsl(233, 100%, 69%);
+    height: 50px;
+    border-radius: 25px;
+    border-style: groove ;
+
+}
+
+.logos{
+    
+    
+}
+
+
+
+@media (max-width: 375px) {
+
+    .button{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* .logos{
+        display: flex;
+        flex-direction: column;
+    } */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
